@@ -85,7 +85,7 @@ namespace restaurant.project.Controllers
                 }
                 return ("Sorry Not Avilable");
             }
-
+            IsAvilable( );
             return Ok ("Done");
         }
 
